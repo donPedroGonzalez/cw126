@@ -10,7 +10,7 @@ function onPageLoad()
     var exerciceBody = document.getElementById("exercice-wrapper");
     questions = [ "Mets les phrases à la voix passive", "Le directeur signe le contrat.", "Les spectateurs applaudissent l'acteur.", "Un architecte célèbre a construit cette maison.", "Les pompiers ont sauvé les enfants.", "La tempête détruisait les récoltes.", "Le jury examinera les candidatures.", "Le maire ouvrira le festival.", "Le ministre inaugurerait le musée." ];
     answers = [ "Garde le même temps que la phrase active", "Le contrat est signé par le directeur.", "L'acteur est applaudi par les spectateurs.", "Cette maison a été construite par un architecte célèbre.", "Les enfants ont été sauvés par les pompiers.", "Les récoltes étaient détruites par la tempête.", "Les candidatures seront examinées par le jury.", "Le festival sera ouvert par le maire.", "Le musée serait inauguré par le ministre." ];
-    hints = [ "Voix passive", "est", "est", "a été", "ont été", "étaient", "seront", "sera", "serait" ];
+    hints = [ "Voix passive", "", "", "", "", "", "", "", "" ];
 
     var myForm = document.createElement("form");
     myForm.setAttribute("id", "myExercice"); 
